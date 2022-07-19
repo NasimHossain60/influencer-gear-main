@@ -14,8 +14,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 nav {
-  margin: 50px 0px 50px 120px;
-  margin-bottom: ;
+  margin: 40px 0;
+  padding: 0 10%;
   width: 100%;
   display: flex;
   justify-content: space-between;
