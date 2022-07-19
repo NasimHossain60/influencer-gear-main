@@ -17,7 +17,6 @@ nav {
   margin: 50px 0px 50px 120px;
   margin-bottom: ;
   width: 80%;
-
   display: flex;
   justify-content: space-between;
 }
@@ -43,8 +42,8 @@ main {
 }
 /* photography part Start */
 .photography {
-  width: 80%;
-  margin-left: 120px;
+  width: 100%;
+  padding: 0 10%;
   display: flex;
   align-items: center;
 }
@@ -195,7 +194,6 @@ footer p {
 footer .social-icon {
   display: flex;
   justify-content: center;
-  
 }
 .fa-brands {
   color: white;
@@ -203,3 +201,42 @@ footer .social-icon {
 }
 
 /* Footer Section End */
+
+/* Media Queary Start */
+
+/* for Mobile Device */
+@media only screen and (max-width: 600px) {
+  .photography {
+    margin: 0;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .photo h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .photo {
+    text-align: center;
+
+    width: 100%;
+    padding: 14px 25px;
+  }
+  nav,
+  .product-section,
+  footer {
+    display: none;
+  }
+  /* Shopping-site ink start */
+  .Shopping-site {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 42px;
+    margin: 30px 0;
+  }
+  .Shopping-site img {
+    width: 51.17px;
+    height: 15.24px;
+  }
+}
+
+/* Media Queary End */
