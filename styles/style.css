@@ -1,6 +1,10 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +13,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* photography part Start */
 .photography {
   width: 80%;
   margin-left: 120px;
@@ -48,3 +58,67 @@ h1 span {
 .photo img {
   width: 100%;
 }
+/* photography part end*/
+
+/* Shopping-site ink start */
+
+.Shopping-site {
+  display: flex;
+  justify-content: center;
+  width: 1110px;
+  height: 110px;
+  column-gap: 60px;
+  align-items: center;
+  margin: 100px 0;
+}
+.Shopping-site img {
+  width: 84px;
+  height: 26px;
+}
+
+/* Shopping-site ink End */
+
+/* Product Item Style Start */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 329px;
+  height: 476px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.product-banner {
+  width: 300px;
+  height: 256px;
+}
+.product-title {
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+  margin-bottom: 6px;
+}
+.protuct-price {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 8px;
+}
+.product-rating {
+  margin-bottom: 3px;
+}
+.star-color {
+  color: #fb8200;
+}
+.product-rating span {
+  color: #5e6366;
+  font-family: "Roboto", sans-serif;
+}
+.Product-content {
+  color: #787885;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Inter";
+}
+/* Product Item Style End */
