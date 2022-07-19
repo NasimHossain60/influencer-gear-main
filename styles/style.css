@@ -79,10 +79,21 @@ h1 span {
 /* Shopping-site ink End */
 
 /* Product Item Style Start */
-
-.products {
+#title-align {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+}
+.product-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-bottom: 50px;
+}
+.products {
   width: 329px;
   height: 476px;
   padding: 15px;
@@ -120,5 +131,20 @@ h1 span {
   font-weight: 700;
   font-size: 14px;
   font-family: "Inter";
+}
+#see-more {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+#see-more a {
+  text-decoration: none;
+  color: rgba(224, 44, 109, 0.87);
+}
+.arrow {
+  color: rgba(224, 44, 109, 0.87);
 }
 /* Product Item Style End */
