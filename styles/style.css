@@ -16,9 +16,12 @@ body {
 nav {
   margin: 50px 0px 50px 120px;
   margin-bottom: ;
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.menu-bar {
+  display: none;
 }
 nav h1 {
   color: #3a3a3a;
@@ -206,6 +209,21 @@ footer .social-icon {
 
 /* for Mobile Device */
 @media only screen and (max-width: 600px) {
+  .mobile-vhite {
+    display: none;
+  }
+
+  nav {
+    margin: 0%;
+    padding: 30px 26px;
+  }
+  .menu-bar {
+    display: inline;
+  }
+  nav h1 {
+    font-weight: 700;
+    font-size: 16px;
+  }
   .photography {
     margin: 0;
     flex-direction: column;
@@ -221,11 +239,7 @@ footer .social-icon {
     width: 100%;
     padding: 14px 25px;
   }
-  nav,
-  .product-section,
-  footer {
-    display: none;
-  }
+
   /* Shopping-site ink start */
   .Shopping-site {
     flex-wrap: wrap;
@@ -237,6 +251,43 @@ footer .social-icon {
     width: 51.17px;
     height: 15.24px;
   }
+  /* Shopping-site ink sEnd  */
+
+  /* Product Item Style Start */
+  #title-align {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .product-section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  .product-title {
+    font-weight: 700;
+  }
+  .protuct-price {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  /* Product Item Style End */
+
+  /* Footer Section Start */
+
+  footer h3 {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  footer p {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  #see-more {
+    margin-bottom: 50px;
+  }
+
+  /* Footer Section End */
 }
 
 /* Media Queary End */
